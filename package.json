@@ -1,0 +1,20 @@
+{
+  "name": "dns-strato-updater",
+  "version": "0.0.0",
+  "description": "dns updater that the domains and subdomains is pointing on your new ip address",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@git.ronny5.de:a.ortmann/strato-dns-updater.git"
+  },
+  "keywords": [
+    "strato",
+    "dns",
+    "updater"
+  ],
+  "author": "Adrian Ortmann",
+  "license": "Commercial",
+  "dependencies": {
+  },
+  "private": true,
+}
