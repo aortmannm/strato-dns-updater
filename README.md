@@ -1,7 +1,7 @@
 Overview
 ========
 
-What is this module about ?
+A node program to update the dynamic dns ip address of your domains and subdomains.
 
 Install 
 -------
