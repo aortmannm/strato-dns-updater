@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git@git.ronny5.de:a.ortmann/strato-dns-updater.git"
+    "url": "git@github.com:aortmannm/strato-dns-updater.git"
   },
   "keywords": [
     "strato",
@@ -18,5 +18,5 @@
     "commander": "^2.2.0",
     "superagent": "^0.18.0"
   },
-  "private": true
+  "private": false
 }
