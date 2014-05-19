@@ -1,6 +1,6 @@
 {
   "name": "strato-dns-updater",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "description": "dns updater that the domains and subdomains is pointing on your new ip address",
   "main": "index.js",
   "repository": {
