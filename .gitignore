@@ -6,3 +6,4 @@ npm-debug.log
 processed-commands
 build
 local
+config/hosts.config
