@@ -5,7 +5,7 @@
 var program = require('commander');
 
 program
-  .version('0.5.2')
+  .version('0.5.3')
   .option('-h, --hostname <hostname>', 'The hostname that will be updated (e.g. mySubdomain.testDomain.com)')
   .option('-u, --username <username>', 'The username for your domain')
   .option('-p, --password <password>', 'The password for your domain')
