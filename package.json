@@ -1,6 +1,6 @@
 {
   "name": "strato-dns-updater",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "dns updater that the domains and subdomains is pointing on your new ip address",
   "main": "index.js",
   "repository": {
@@ -19,7 +19,8 @@
   "license": "MIT",
   "dependencies": {
     "commander": "^2.2.0",
-    "superagent": "^0.18.0"
+    "superagent": "^0.18.0",
+    "path-extra": "^0.2.0"
   },
   "private": false
 }

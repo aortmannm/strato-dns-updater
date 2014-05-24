@@ -57,12 +57,17 @@ strato-dns-updater -l
 
 Configuration file can be found in.
 ```
- ./config/hosts.config
+ <homedir>/hosts.config
 ```
 
 
 Changelog
 =========
+
+v0.5.2
+------
+- The configuration file is saved in the home directory of the user
+- npm update -g strato-dns-updater won't delete your configuration file
 
 v0.5.0
 ------
