@@ -1,6 +1,6 @@
 {
   "name": "strato-dns-updater",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "dns updater that the domains and subdomains is pointing on your new ip address",
   "main": "index.js",
   "repository": {
@@ -16,7 +16,7 @@
     "strato-dns-updater": "bin/strato-dns-updater"
   },
   "author": "Adrian Ortmann",
-  "license": "Commercial",
+  "license": "MIT",
   "dependencies": {
     "commander": "^2.2.0",
     "superagent": "^0.18.0"
