@@ -1,7 +1,7 @@
 Overview
 ========
 
-A node program to update the dynamic dns ip address of your domains and subdomains.
+A node program to update the dynamic dns ip address of your domains and subdomains. When strato-dns-updater is running as a service it's possible to use it in the same time in the cli. You can add or list the existing hosts. And the service will realize it and load the new configuration.
 
 Install 
 -------
@@ -48,12 +48,23 @@ or if globally installed
 strato-dns-updater -d host
 ```
 
-It will safe the configuration for this host in the 'hosts.config'.
-
-All hosts in this list will be updated.
-
-Base configuration file needs to look like this.
+List existing hosts
 ```
-{"hosts":[]}
+node index.js -l
+or if globally installed
+strato-dns-updater -l
 ```
-It should be in ./config/hosts.config
+
+Configuration file can be found in.
+```
+ ./config/hosts.config
+```
+
+
+Changelog
+=========
+
+v0.5.0
+------
+- adding new hosts and the configuration will update automaticly
+- listing hosts
